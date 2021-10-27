@@ -10,9 +10,9 @@ public Omakotitalo () {
 	this.lammitysmuoto=null;
 }
 
-public Omakotitalo(int id, int hinta, int hlkm, double pintaala, String nimi, String kuvaus) {
+public Omakotitalo(int id, int hinta, int hlkm, double pintaala, String nimi, String kuvaus, String tontinKoko, String lammitysmuoto) {
 	super(id, hinta, hlkm, pintaala, nimi, kuvaus);
-	this.tontinKoko=tontinKoko;
+	this.tontinKoko= tontinKoko;
 	this.lammitysmuoto=lammitysmuoto;
 }
 
